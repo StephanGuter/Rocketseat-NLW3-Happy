@@ -1,0 +1,113 @@
+form {
+    width: 700rem;
+    margin: 64rem auto;
+    background: white;
+    border: 1px solid #D3E2E5;
+
+    border-radius: 20rem;
+
+    overflow: hidden;
+
+    padding: 80rem;
+}
+
+fieldset {
+    border: 0;
+}
+
+fieldset + fieldset {
+    margin-top: 80rem;
+}
+
+fieldset legend {
+    width: 100%;
+
+    font-size: 32rem;
+    line-height: 1.5;
+
+    color: #5c8599;
+    font-weight: 700;
+
+    border-bottom: 1px solid #d3ede5;
+    margin-bottom: 40rem;
+    padding-bottom: 24rem;
+}
+
+.input-block + .input-block {
+    margin-top: 24rem;
+}
+
+.input-block label {
+    color: #8fa7b3;
+    margin-bottom: 8rem;
+    line-height: 1.5;
+}
+
+.input-block label span{
+    font-size: 14rem;
+    color: #8fa7b3;
+    margin-left: 24rem;
+    line-height: 1.5;
+}
+
+.input-block input,
+.input-block textarea {
+    width: 100%;
+
+    background: #f5f8fa;
+    border: 1px solid #d3e2e5;
+    border-radius: 20rem;
+
+    color: #5c8599;
+}
+
+
+.input-block input {
+    height: 64rem;
+    padding: 0 16rem;
+}
+
+.input-block input:valid,
+.input-block textarea:valid {
+    border: 1px solid #A1E9C5;
+}
+
+.input-block textarea {
+    height: clamp(120rem, 160rem, 240rem);
+    resize: vertical;
+    padding: 16rem;
+    line-height: 28rem;
+}
+
+.input-block.images button {
+    border: 1px dashed #96D2F0;
+    width: 100%;
+    background: #f5f8fa;
+    height: 64rem;
+    padding: 0 16rem;
+    margin-top: 24rem;
+    border-radius: 20rem;
+
+    cursor: pointer;
+}
+
+.new-upload {
+    position: relative;
+}
+
+.new-upload + .new-upload {
+    margin-top: 24rem;
+}
+
+.new-upload span {
+    position: absolute;
+    right: 12px;
+    bottom: 14px;
+    background: #FFFFFF;
+    border: 1px solid #D3E2E5;
+    display: flex;
+    border-radius: 10px;
+    padding: 10rem;
+
+    cursor: pointer;
+}
